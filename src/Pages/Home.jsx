@@ -129,16 +129,16 @@ const Home = () => {
               <h4 className='contents mt-2'>Free High-Speed WiFi</h4>
             </div>
             <div className='text-light text-center col-sm-3  mb-3 mb-sm-0'>
-              <i class="fa-solid fa-mug-saucer fa-2xl"></i>
+              <i className="fa-solid fa-mug-saucer fa-2xl"></i>
               <h4 className='contents mt-2'>Complimentary Breakfast</h4>
             </div>
 
             <div className='text-light text-center col-sm-3  mb-3 mb-sm-0'>
-              <i class="fa-solid fa-dumbbell fa-2xl"></i>
+              <i className="fa-solid fa-dumbbell fa-2xl"></i>
               <h4 className='contents mt-2'>24/7 Fitness Center</h4>
             </div>
             <div className='text-light text-center col-sm-3  mb-3 mb-sm-0'>
-              <i class="fa-solid fa-utensils fa-2xl"></i>
+              <i className="fa-solid fa-utensils fa-2xl"></i>
               <h4 className='contents mt-2'>Fine Dining Restaurant</h4>
             </div>
 
@@ -266,7 +266,7 @@ const Home = () => {
                 </Card>
               ))
               :
-              <h1 className='text-secondary'>No Feedbacks found</h1>}
+              <h1 className='text-secondary headings'>No Feedbacks found</h1>}
           </div>
 
           <div className=' d-flex justify-content-center'>

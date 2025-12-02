@@ -15,3 +15,13 @@ export const getAllReviewsAPI = async () => {
 export const addBookingAPI = async (reqBody) =>{
    return await commonAPI("POST",`${SERVER_URL}/add-booking`,reqBody)
 }
+
+//API Call for Admin Login
+export const AdminLoginAPI = async (reqBody) =>{
+   return await commonAPI("POST",`${SERVER_URL}/login`,reqBody)
+}
+
+//API Call to get Bookings
+export const getBookingsAPI = async () =>{
+   return await commonAPI("GET",`${SERVER_URL}/bookings`,{})
+}

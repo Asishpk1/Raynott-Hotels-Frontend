@@ -3,6 +3,10 @@
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }
+.loginInput::placeholder{
+  color: white;
+  opacity: 50%;
+}
 
 @media(max-width:700px) {
   .main-head {

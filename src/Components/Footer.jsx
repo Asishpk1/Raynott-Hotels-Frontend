@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
      <>
-    <div className='mt-sm-5 container-fluid footer' style={{backgroundColor:'rgba(36, 34, 34, 1)'}}>
+    <div className=' container-fluid footer' style={{backgroundColor:'rgba(36, 34, 34, 1)'}}>
         <div className='d-flex justify-content-around pt-4 row w-100 m-0 sec-section'>
 
         {/* Raynott Section   */}

@@ -15,6 +15,7 @@ const Header = () => {
             <Link to={'/hotels'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(220, 90, 10, 1)'}}>Hotels</Link>
             <Link to={'/booking'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(220, 90, 10, 1)'}}>Booking</Link>
             <Link to={'/contact'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(220, 90, 10, 1)'}}>Contact</Link>
+            <Link to={'/login'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(220, 90, 10, 1)'}}>Admin</Link>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

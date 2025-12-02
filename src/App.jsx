@@ -8,6 +8,8 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Hotels from './Pages/Hotels'
 import Booking from './Pages/Booking'
+import AdminLogin from './Pages/AdminLogin'
+import AdminDashboard from './Pages/AdminDashboard'
 
 function App() {
   
@@ -33,6 +35,8 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/booking' element={<Booking/>}/>
+        <Route path='/login' element={<AdminLogin/>}/>
+        <Route path='/dashboard' element={<AdminDashboard/>}/>
       </Routes>
       <Footer/>
     </>
