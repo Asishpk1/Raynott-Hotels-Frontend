@@ -68,7 +68,6 @@ const AdminDashboard = () => {
                                 <th>Check-In</th>
                                 <th>Check-Out</th>
                                 <th>Guests</th>
-                                <th>Submitted On</th>
                             </tr>
                         </thead>
 
@@ -80,14 +79,9 @@ const AdminDashboard = () => {
                                         <td>{item.number}</td>
                                         <td>{item.email}</td>
                                         <td>{item.destination}</td>
-                                        <td>{item.checkInDate}</td>
-                                        <td>{item.checkOutDate}</td>
+                                        <td>{new Date(item.checkInDate).toDateString("en-US")}</td>
+                                        <td>{new Date(item.checkOutDate).toDateString("en-US")}</td>
                                         <td>{item.guests}</td>
-                                        <td>
-                                            {item.createdAt
-                                                ? new Date(item.createdAt).toLocaleString()
-                                                : "--"}
-                                        </td>
                                     </tr>
                                 ))
                             ) : (
